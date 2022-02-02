@@ -19,7 +19,7 @@ export const getStaticProps = async (context) => {
 };
 
 const Details = (data) => {
-  console.log(data);
+  //console.log(data);
   return (
     <div>
       <h1>{data.name}</h1>
